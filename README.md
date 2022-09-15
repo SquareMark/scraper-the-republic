@@ -1,6 +1,6 @@
-**Scraper de Noticias de E-Periodico La Republica:**
+##Scraper de Noticias de E-Periodico La Republica:##
 
-- Preparar el Entorno -
+####Preparar el Entorno####
 
 Inicializamos proyecto en git
 Y luego agregamos el modulo de desarrollo de python
@@ -19,7 +19,8 @@ Luego se ha de instalar las dependencias a utilizar: Request, LXML y autopep8
 
 Con esto ya habremos terminado de preparar el entorno
 
-- Construir las expresiones de Xpath -
+####Construir las expresiones de Xpath####
+
 *Las direcciones de las expresiones las iremos almacenando en el archivo xpath.txt*
 
 Desde la pagina principal inspeccionamos los titulos para notar si hay alguna
@@ -33,3 +34,7 @@ El primer elemento que vamos a extraer son los links de las noticias en la pagin
 En este caso los elementos que queremos extraer son el titulo de la noticia, la descripcion de esta y por ultimo, su cuerpo.
 
 Una vez tengamos sus expresiones, podremos continuar
+
+####Creacion del scripts scraper con Python####
+
+Se creara un archivo nuevo en la carpeta raiz del proyecto llamado scraper.py
