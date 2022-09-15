@@ -13,6 +13,6 @@ En linux y en mac = source venv/bin/activate
 (opcional) crear un workspace para llevar un historial de trabajo
 
 Luego se ha de instalar las dependencias a utilizar: Request, LXML y autopep8
-<> pip install request lxml autopep8 </>
+<> pip install requests lxml autopep8 </>
 
 //py -m pip install --upgrade pip <- comando para actualizar pip si se necesitara
